@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mixltup</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+
+
+ <div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".item1">yellowgreen</button>
+            <button type="button" class="control" data-filter=".item2">lightskyblue</button>
+            <button type="button" class="control" data-filter=".item3">maroon</button>
+             <button type="button" class="control" data-filter=".item4">palevioletred</button>
+             <button type="button" class="control" data-filter="none">None</button>
+
+            <button type="button" class="control" data-sort="default:asc">Asc</button>
+            <button type="button" class="control" data-sort="default:desc">Desc</button>
+ </div>
+
+<div class="container">
+
+
+	<div class="item1 mix"></div>
+	<div class="item4 mix"></div>
+	<div class="item1 mix"></div>
+	<div class="item4 mix"></div>
+	<div class="item3 mix"></div>
+	<div class="item1 mix"></div>
+	<div class="item2 mix"></div>
+	<div class="item3 mix"></div>
+	<div class="item2 mix"></div>
+	<div class="item2 mix"></div>
+
+	<div class="item4 mix"></div>
+	<div class="item1 mix"></div>
+	<div class="item1 mix"></div>
+	<div class="item4 mix"></div>
+	<div class="item3 mix"></div>
+	<div class="item3 mix"></div>
+	<div class="item3 mix"></div>
+	<div class="item2 mix"></div>
+</div>
+
+
+
+
+	<script src="js/mixitup.js"></script>
+
+	 <script>
+	            var x = document.querySelector('.container');
+
+	            var mixer = mixitup(x,{
+	            	'animation' : {
+	            		'enable' : true,
+	            		'effectsOut' : 'fade translateY(-400px)',
+	            		'duration' : 5000,
+	            		'easing': 'ease-in-out'
+	            	}
+	            });
+
+            
+        </script>
+</body>
+</html>

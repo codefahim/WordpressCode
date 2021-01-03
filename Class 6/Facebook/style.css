@@ -1,0 +1,64 @@
+
+body {
+	margin: 0;
+}
+
+
+.header-area {
+	background-color: #3C5A99;
+	overflow: hidden; 
+	padding-top: 1%;
+	padding-left: 5%;
+
+}
+
+
+.header-area .image {
+	margin: 0;
+	float: left;
+}
+
+.content {
+	background-color :#D5DAE9;
+	overflow: hidden;
+}
+.left-sidebar {
+	width : 56% ;
+	float: left ;
+	overflow: hidden;
+	margin:0;
+	background-color :#D5DAE9;
+}
+
+.right-sidebar {
+	background-color :#D5DAE9;
+	width : 44% ;
+	overflow: hidden;
+	padding-bottom:13%;
+	padding-top: 4px;
+	
+}
+.header-area .login {
+	overflow: hidden;
+	margin-left: 50%;
+	padding-bottom: 2%;
+	color: #ffffff;
+}
+input .1 {
+	height:80px;
+	width: 290px;
+}
+
+.middle-area {
+	
+	
+}
+
+
+.footer-area {
+	background-color: #ffffff;
+	overflow:hidden;
+	width: 100%;
+	
+	
+}

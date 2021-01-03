@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+
+}
+
+.image img {
+	background-color: #D29431;
+	overflow : hidden;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.middle-area {
+	overflow: hidden;
+	
+}
+
+.dmain {
+	background-color: #ffffff;
+	color: #CF902F;
+	font-size: 25px;
+	margin-top: 20%;
+	margin-left: 20%;
+}
+
+p {
+	font-size: 25px;
+	margin: 0;
+	color: white;
+	overflow: hidden;
+	border-bottom: dashed;
+}
+a{
+	color: white;
+}
+
+p.main {
+	color: #CC1F1A;
+	
+}
+
+.left-sidebar {
+	background-color : #CF902F;
+	width : 20% ;
+	float: left ;
+	padding-bottom: 24%;
+	padding-top: 6px;
+}
+.right-sidebar {
+	
+	background-color : #3c6382;
+	width : 62% ;
+	float: left ;
+	padding-bottom: 9% ;
+	padding-top: 2px;
+	
+	
+}
+ .content {
+	background-color : #30336b;
+	width : 18% ;
+	float: left ;
+	padding-bottom: 30%;
+	float: left;
+	padding-top: 10px;
+	
+	
+ }
+.content h2 {
+	color: white;
+	margin-left : 10%;
+}
+.content ul {
+	color : #70DDB1;
+}
+h2.more{
+	color : #70DDB1;
+}
+
+.right-sidebar h2 {
+	color: white;
+	margin-left : 3%;
+}
+
+.right-sidebar div {
+	border: none;
+	margin-left : 3%;
+	font-size: 18px;
+	color: white;
+} 
+.artical img {
+	margin-top: 5%;
+}
+
+div.last {
+	color: #E28636;
+}
+
+.footer-area  {
+	background: #2c3e50;
+	overflow: hidden;
+	color: red;
+}

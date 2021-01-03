@@ -1,0 +1,50 @@
+@media all and (max-width: 768px ) {
+	.logo-area {
+	float: none;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+	
+	.login-area {
+		margin: auto;
+		width: 380px;
+	}
+	.login-area form {
+		float: none;
+		width: 373px;
+		margin: auto;
+	}
+	.image-area {
+		width: 100%;
+		float: none;
+		margin: auto;
+		padding: 0;
+		min-height: 200px;
+		}
+
+	.singup-area {
+		width: 100%;
+		float: none;
+		margin: auto;
+		padding: 0;
+		
+	}	
+}
+
+@media all and (max-width: 479px ) {
+	.login-area {
+		margin: auto;
+	}
+	.username-area {
+		float: none;
+	}
+	.password-area {
+		float: none;
+	}
+	.login-area input[type="text"],
+	.login-area input[type="password"] {
+		width: 100%;
+	}
+}
+

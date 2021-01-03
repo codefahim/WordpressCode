@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+}
+.error {
+	color: red;
+	font-style: italic;
+	padding-bottom: 5px;
+}
+
+.reg{
+	margin: 0 auto;
+	width: 60%;
+	height: auto;
+	padding-top: 20px;
+	border: 1px solid black;
+	padding-left: 5%;
+	padding-bottom: 2%;
+}
+
+.success {
+	font-style: italic;
+	color:green;
+}

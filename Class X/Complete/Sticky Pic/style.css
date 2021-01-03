@@ -1,0 +1,287 @@
+body {
+	margin: 0;
+}
+
+.social-icons ul {
+	list-style: none;
+}
+
+.social-icons ul li {
+	float: left;
+}
+
+
+.social-icons ul li a {
+	background-image: url('images/social.png');
+	display: block;
+	height: 84px;
+	width: 84px;
+	transition-duration: .5s;
+}
+
+.social-icons ul .facebook a{
+	background-position: 0 0;
+}
+
+.social-icons ul .facebook a:hover {
+	background-position: 0 -84px;
+}
+.social-icons ul .flicker a{
+	background-position: -84px 0;
+}
+.social-icons ul .flicker a:hover {
+	background-position: -84px -84px;
+}
+.social-icons ul .dribbble a{
+	background-position: -168px 0;
+}
+.social-icons ul .dribbble a:hover{
+	background-position: -168px -84px;
+}
+.social-icons ul .google-plus a{
+	background-position: -252px 0;
+}
+.social-icons ul .google-plus a:hover{
+	background-position: -252px -84px;
+}
+
+.social-icons ul .linkdin a{
+	background-position: -336px 0;
+}
+.social-icons ul .linkdin a:hover {
+	background-position: -336px -84px;
+}
+
+
+.social-icons ul .pinterest a {
+	background-position: -420px 0;
+}
+
+.social-icons ul .pinterest a:hover {
+	background-position: -420px -84px;
+}
+
+.social-icons ul .un a {
+	background-position: -504px 0;
+}
+.social-icons ul .un a:hover {
+	background-position: -504px -84px;
+}
+
+.social-icons ul .skype a {
+	background-position: -588px 0;
+}
+
+.social-icons ul .skype a:hover {
+	background-position: -588px -84px;
+}
+.social-icons ul .twitter a {
+	background-position: -672px 0;
+}
+.social-icons ul .twitter a:hover {
+	background-position: -672px -84px;
+}
+.social-icons ul .vimeo a {
+	background-position: -756px 0;
+}
+.social-icons ul .vimeo a:hover {
+	background-position: -756px -84px;
+}
+.social-icons ul .youtube-play a {
+	background-position: -840px 0;
+}
+.social-icons ul .youtube-play a:hover {
+	background-position: -840px -84px;
+}
+
+
+/* part two */
+
+
+div{
+	overflow: hidden;
+}
+.social-icons2 ul {
+	list-style: none;
+}
+.social-icons2 li {
+	float: left;
+}
+
+.social-icons2 ul li a{
+	background-image: url('images/social.png');
+	display: block;
+	height: 84px;
+	width: 84px;
+	transition-duration: .2s;
+}
+
+.social-icons2 ul .facebook a{
+	background-position: 0 0;
+}
+
+.social-icons2 ul .facebook a:hover {
+	background-position: 0 84px;
+}
+.social-icons2 ul .flicker a{
+	background-position: -84px 0;
+}
+.social-icons2 ul .flicker a:hover {
+	background-position: -84px 84px;
+}
+.social-icons2 ul .dribbble a{
+	background-position: -168px 0;
+}
+.social-icons2 ul .dribbble a:hover{
+	background-position: -168px 84px;
+}
+.social-icons2 ul .google-plus a{
+	background-position: -252px 0;
+}
+.social-icons2 ul .google-plus a:hover{
+	background-position: -252px 84px;
+}
+
+.social-icons2 ul .linkdin a{
+	background-position: -336px 0;
+}
+.social-icons2 ul .linkdin a:hover {
+	background-position: -336px 84px;
+}
+
+
+.social-icons2 ul .pinterest a {
+	background-position: -420px 0;
+}
+
+.social-icons2 ul .pinterest a:hover {
+	background-position: -420px 84px;
+}
+
+.social-icons2 ul .un a {
+	background-position: -504px 0;
+}
+.social-icons2 ul .un a:hover {
+	background-position: -504px 84px;
+}
+
+.social-icons2 ul .skype a {
+	background-position: -588px 0;
+}
+
+.social-icons2 ul .skype a:hover {
+	background-position: -588px 84px;
+}
+.social-icons2 ul .twitter a {
+	background-position: -672px 0;
+}
+.social-icons2 ul .twitter a:hover {
+	background-position: -672px 84px;
+}
+.social-icons2 ul .vimeo a {
+	background-position: -756px 0;
+}
+.social-icons2 ul .vimeo a:hover {
+	background-position: -756px 84px;
+}
+.social-icons2 ul .youtube-play a {
+	background-position: -840px 0;
+}
+.social-icons2 ul .youtube-play a:hover {
+	background-position: -840px 84px;
+}
+
+
+/* part three */
+
+.social-icons3 ul {
+	list-style: none;
+}
+
+.social-icons3 ul li {
+	float: left;
+}
+
+.social-icons3 ul li a{
+	background-image: url('images/social.png');
+	display: block;
+	height: 84px;
+	width: 84px;
+	transition-duration:.2s;
+}
+
+
+.social-icons3 ul .facebook a{
+	background-position: 0 84px;
+}
+
+.social-icons3 ul .facebook a:hover {
+	background-position: 0 -84px;
+}
+.social-icons3 ul .flicker a{
+	background-position: -84px bottom;
+}
+.social-icons3 ul .flicker a:hover {
+	background-position: -84px -84px;
+}
+.social-icons3 ul .dribbble a{
+	background-position: -168px bottom;
+}
+.social-icons3 ul .dribbble a:hover{
+	background-position: -168px -84px;
+}
+.social-icons3 ul .google-plus a{
+	background-position: -252px bottom;
+}
+.social-icons3 ul .google-plus a:hover{
+	background-position: -252px -84px;
+}
+
+.social-icons3 ul .linkdin a{
+	background-position: -336px bottom;
+}
+.social-icons3 ul .linkdin a:hover {
+	background-position: -336px -84px;
+}
+
+
+.social-icons3 ul .pinterest a {
+	background-position: -420px bottom;
+}
+
+.social-icons3 ul .pinterest a:hover {
+	background-position: -420px -84px;
+}
+
+.social-icons3 ul .un a {
+	background-position: -504px bottom;
+}
+.social-icons3 ul .un a:hover {
+	background-position: -504px -84px;
+}
+
+.social-icons3 ul .skype a {
+	background-position: -588px bottom;
+}
+
+.social-icons3 ul .skype a:hover {
+	background-position: -588px -84px;
+}
+.social-icons3 ul .twitter a {
+	background-position: -672px bottom;
+}
+.social-icons3 ul .twitter a:hover {
+	background-position: -672px -84px;
+}
+.social-icons3 ul .vimeo a {
+	background-position: -756px bottom;
+}
+.social-icons3 ul .vimeo a:hover {
+	background-position: -756px -84px;
+}
+.social-icons3 ul .youtube-play a {
+	background-position: -840px bottom;
+}
+.social-icons3 ul .youtube-play a:hover {
+	background-position: -840px -84px;
+}

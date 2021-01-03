@@ -1,0 +1,114 @@
+.box,
+.box2,
+.box5
+ {
+	height: 30px;
+	width: 30px;
+	background-color: darkgoldenrod;
+	border-radius: 50%;
+}
+
+.box6  {
+	height: 30px;
+	width: 30px;
+	background-color: palegreen;
+	border-radius: 50%;
+}
+
+.box7  {
+	height: 30px;
+	width: 30px;
+	background-color: limegreen;
+	border-radius: 50%;
+}
+.box8 {
+	height: 50px;
+	width: 50px;
+	background-color: forestgreen;
+	border-radius: 50%;
+}
+
+
+
+.box9 {
+	height: 100px;
+	width: 100px;
+	background-color: navajowhite;
+	border: 2px solid black;
+	border-radius: 15%;
+}
+
+
+.box1 {
+	height: 100px;
+	width: 100px;
+	background-color: whitesmoke;
+}
+.box3 {
+	height: 100px;
+	width: 100px;
+	background-color: greenyellow;
+}
+
+
+.box4 {
+	height: 200px;
+	width: 200px;
+	background-color: lightskyblue;
+	border-radius: 50%;
+}
+
+.drops {
+	background-color: lightsalmon;
+}
+
+.select {
+	background-color: forestgreen;
+	color: navajowhite;
+}
+
+.ui-selected {
+	color: yellow;
+	border: 1px solid palegreen;
+	background-color: black;
+}
+
+ol {
+	list-style: none;
+}
+.ui-state-active .ui-icon,.ui-state-active .ui-icon, .ui-button:active .ui-icon,.ui-icon, .ui-widget-content .ui-icon {
+	background-image: url('css/images/ui-icons_cc0000_256x240.png');
+}
+.box16 {
+	display: none;
+}
+
+.ui-progressbar .ui-progressbar-value {
+	margin: 0;
+}
+
+.nc{
+	margin-bottom: 50px;
+}
+
+.wc {
+	width: 50%;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.box20 {
+	background-color: whitesmoke;
+	height: 100px;
+	width: 100px;
+}

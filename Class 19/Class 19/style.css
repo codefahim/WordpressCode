@@ -1,0 +1,8 @@
+.download-area,
+.image-area,
+.tab-area {
+	max-height:400px;
+}
+.x{
+	margin: 50px;
+}

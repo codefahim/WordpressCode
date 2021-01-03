@@ -1,0 +1,92 @@
+body {
+	margin : 0;
+}
+
+.box {
+	height: 400px;
+	width : 300px;
+	background: green;
+	position: fixed;
+	bottom: 300px;
+	right: 300px;
+}
+
+.header-area {
+	height: 100 px;
+	width : 100%;
+	padding: 15px 0 15px 0;
+}
+
+.bhead {
+	height:28px;
+	width : 100%;
+	background: black;
+	color: #ffffff;
+	font-family: Algerian;
+	text-align: left;
+	padding-top : 4px;
+}
+.bnews {
+	height: 20px;
+	width: 100%;
+	background: #BA2027;
+	color: white;
+}
+
+.newsa {
+	height: 400px;
+	text-align:center;
+}
+.newsb {
+	height: 400px;
+	text-align:center;
+}
+
+
+
+.middle-area{
+	height: 1700px;
+	width: 100%;	
+	background: red;
+	position: relative;
+}
+
+.left-sidebar {
+	height: 1700px;
+	width: 60%;	
+	background: #ffffff;
+	float:left;
+	
+}
+.right-sidebar {
+	height: 1700px;
+	width: 40%;	
+	background: green;
+	overflow: hidden;
+}
+
+.rightada{
+	height: 600px;
+	width: 90%;	
+	background: red;
+	position:relative;
+	margin:auto;
+}
+
+
+.rightadb{
+	height: 600px;
+	width: 100%;	
+	background: red;
+	overflow: hidden;
+	margin-top: 10%;
+
+}
+
+
+.footer-area {
+	height: 50px;
+	width : 100%;
+	background: black;
+	color: #ffffff;
+}

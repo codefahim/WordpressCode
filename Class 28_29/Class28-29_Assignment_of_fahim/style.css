@@ -1,0 +1,227 @@
+
+.con {
+	width: 95%;
+}
+.mbody {
+	border-top: 1px solid #FAA523;
+	min-height: 1100px;
+}
+
+.cb {
+	background-color: #FBFBFB;
+	min-height: 800px;
+	border-radius: 10px;
+	padding: 0;
+}
+
+.b1 {
+	min-height: 795px;
+	 background-image: radial-gradient(farthest-side at 100% 50%,#F9F9F9 ,#F7F7F7,#FAFAFA, #fff 140%) ;
+	border-bottom-left-radius: 9px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.b2 {
+		min-height: 800px;
+		border-bottom-right-radius: 9px;
+		background-color: #ffffff; 
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+}
+
+.bb {
+	z-index: 9999998;
+}
+.head {
+	background-color: #A84524;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+
+.head ul li:hover a {
+	text-decoration: none;
+	color:  lightskyblue;
+}
+
+
+.box {
+	height: 30px;
+	width: 40px;
+	position: fixed;
+	top: 30px;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.51);
+	border-radius: 15%;
+	display: inline;}
+.box1 {
+	height: 30px;
+	width: 40px;
+	position: fixed;
+	top: 60px;
+	right: 0px;
+	background-color: rgba(255, 255, 255, 0.71);
+	border-radius: 15%;
+	display: inline;}
+.menu {
+	padding: 0;
+	margin: 0;
+	background-color: black;}
+.menu:after,
+.head:after
+{
+	content: '';
+	clear: both;
+	display: block;}
+.menu ul,
+.head ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;}
+
+.menu ul li {
+	float: left;
+	position: relative;}
+
+.head ul li {
+	float: left;
+} 
+.menu ul li a,
+.head ul li a {
+	color:  #ffffff;
+	display: block;
+	padding: 5px 10px;
+	font-family: times new roman;
+	text-transform: capitalize;
+	font-size: 15px;
+	letter-spacing: .1em;}
+
+.menu ul>li:hover a {
+	text-decoration: none;
+	color:  lightskyblue;}
+header ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: black;}
+.menu ul ul li {
+	float: none!important;
+	background-color: black;}
+.menu ul ul li a {color: #ffffff!important;}
+.menu ul ul li:hover a{
+	background-color: rgba(85, 230, 193, 0.65);
+	color: #ffffff;}
+.menu-bar {
+	background-color: black;
+	display: none;}
+.menu-bar a{
+	color:  #ffffff;
+	font-size: 20px;}
+.menu-bar i {
+	display: inline-block;
+	padding: 5px 0;}
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999999;
+}
+@media all and (max-width: 768px) {
+	.menu ul ul{
+		position: inherit;
+	}
+	.menu-bar {
+		display: block;
+	}
+
+	.menu ul li {
+		float: none;
+	}
+
+	.menu ul {
+		display: none;
+	}	}
+.box3 {
+	height: 45px;
+	width: 45px;
+	position: fixed;
+	background-color: black;
+	bottom: 10px;
+	right: 10px;
+	border-radius: 15%;}
+.up {
+	color: #ffffff;
+	font-size: 25px;
+	margin: 9px 10px;
+	display: block;}
+
+
+.b1 #menu li {
+	margin: 10px 0;
+	margin-left: 5px;
+}
+.pm {
+	font-weight: bold;
+	display: block!important;
+	width: 100%;
+	padding: 10px 105px;
+	border-bottom: 1px solid #cccccc;
+	letter-spacing: .5em;
+	background: #F1F1F1;
+}
+
+
+footer {
+		border-top: 1px solid #FAA523;
+}
+
+.ui-menu,.ui-widget,.ui-widget-content {
+	border: none;
+}
+
+.ui-widget.ui-widget-content {
+	border: none;
+}
+.ui-widget-content {
+	background: none;
+}
+
+.ui-dialog, .ui-tabs{
+	border: 1px solid #cccccc!important;
+	background: #ecf0f1;
+}
+
+.ui-datepicker-calendar {
+	background: #27ae60;
+}
+
+.ui-state-default {
+	background-color: #58B19F;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.cpb {
+	width: 250px;
+	height: 80px;
+	background: black;
+}
+
+.ui-progressbar {
+	background: #38ada9;
+}

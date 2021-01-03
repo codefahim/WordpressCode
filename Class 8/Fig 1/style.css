@@ -1,0 +1,207 @@
+body {
+	margin: 0;
+	height: 700px;
+	width: 100%;
+	position: relative;
+}
+.left-sidebar {
+	height: 700px;
+	width: 30%;
+	background: #ffffff;
+	float: left;
+	position: relative;
+	
+}
+
+
+
+.left-button {
+	height: 100px;
+	width: 80%;
+	background: #f6e58d;
+	position: relative;
+	margin-top: 40%;
+	margin-left: 9%;
+}
+
+.left-top {
+	height: 400px;
+	width: 100%;
+	background:white;
+	overflow: hidden;
+	position: relative;
+}
+
+.lt-left {
+	height: 300px;
+	width: 10%;
+	background: red;
+	margin: 15% 0 15% 5%;
+	float: left;
+}
+
+.lt-middle {
+	height: 300px;
+	width: 10%;
+	background: black;
+	overflow: hidden;
+	margin: 15% 0 15% 25%;
+	float: left;
+}
+
+.lt-right {
+	height: 300px;
+	width: 10%;
+	background: green;
+	overflow: hidden;
+	margin: 15% 0 15% 80%;
+}
+
+.content {
+	height: 700px;
+	width: 40%;
+	overflow: hidden;
+	float: left;
+}
+
+.cona {
+	height: 450px;
+	width: 75%;
+	background: #ffffff;
+	margin: auto;
+}
+.ca {
+	height: 100px;
+	width: 100%;
+	background: red;
+	float: top;
+	margin: 15% 0;
+}
+
+.cb {
+	height: 100px;
+	width: 100%;
+	background: black;
+	float: middle;
+	margin: 15% 0;
+}
+.cc {
+	height: 100px;
+	width: 100%;
+	background: green;
+	overflow: hidden;
+}
+
+.conb {
+	height: 300px;
+	width: 100%;
+	background: #ffffff;
+	margin: auto;
+}
+
+.ba {
+	height: 60px;
+	width: 10%;
+	background: red;
+	float: left;
+	margin: 10% 0 10% 5%;
+}
+.bb {
+	height: 60px;
+	width: 10%;
+	background: green;
+	float: left;
+	overflow: hidden;
+	margin: 10% 0 10% 5%;
+}
+.bc {
+	height: 60px;
+	width: 10%;
+	background: black;
+	overflow: hidden;
+	float: left;
+	margin: 10% 0 10% 5%;
+}
+
+.right-sidebar {
+	height: 700px;
+	width: 30%;
+	background: #6c5ce7;
+	overflow: hidden;
+}
+.rs1 {
+	height: 60px;
+	width: 80%;
+	background: black;
+	margin: 10%;
+}
+.rs2 {
+	height: 500px;
+	width: 20%;
+	background: green;
+	float: left;
+}
+.rs3 {
+	height: 500px;
+	width: 60%;
+	float: top;
+
+	overflow: hidden;
+	margin: auto;
+}
+.rs3a {
+	height: 100px;
+	width: 100%;
+	background: green;
+	float: top;
+	margin: 30% 0;
+}
+.rs3b {
+	height: 100px;
+	width: 100%;
+	background: black;
+	overflow: hidden;
+	float: top;
+	margin: 30% 0;
+}
+.rs4 {
+	height: 200px;
+	width: 100%;
+	margin: auto;
+}
+.rs4a {
+	height: 50px;
+	width: 30%;
+	background: black;
+	float: left;
+	margin: 2% 10% 0 10%;
+}
+.rs4b {
+	height: 50px;
+	width: 30%;
+	background:green;
+	overflow: hidden;
+	float: left;
+	margin: 2% 10% 0 10%;
+}
+.footer {
+	height: 50px;
+	width: 100%;
+	background: red;
+	margin: auto;
+}
+.f1 {
+	height: 50px;
+	width: 60%;
+	float: left;
+	background: green;
+	float: left;
+}
+.f2 {
+	height: 50px;
+	width: 30%;
+	overflow: hidden;
+	background: black;
+	float: right;
+	
+}

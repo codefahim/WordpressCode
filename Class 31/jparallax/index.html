@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="css/jquery.parallax.css" />
+
+ 
+
+</head>
+
+<body>
+
+	<div class="parallax">
+   
+       <img class="parallax-layer" src="images/parallax_drops/0.png" alt="image" style="width:978px; height:325px;" >
+       <img class="parallax-layer" src="images/parallax_drops/1.png" alt="image" style="width:987px; height:328px;">
+       <img class="parallax-layer" src="images/parallax_drops/2.png" alt="image" style="width:1001px; height:333px;">
+       <img class="parallax-layer" src="images/parallax_drops/3.png" alt="image" style="width:1031px; height:343px;">
+       <img class="parallax-layer" src="images/parallax_drops/4.png" alt="image" style="width:1067px; height:355px;">
+        <img class="parallax-layer" src="images/parallax_drops/5.png" alt="image" style="width:1120px; height:373px;">
+        <img class="parallax-layer" src="images/parallax_drops/6.png" alt="image" style="width:1200px; height:400px;">
+    </div>
+
+  <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script-->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.parallax.js"></script>
+  <script>
+  jQuery(document).ready(function(){
+    jQuery('.parallax .parallax-layer')
+    .parallax({
+      mouseport: jQuery('.parallax')
+    });
+  });
+  </script>
+
+
+    <style type="text/css" media="screen, projection">
+        .parallax {
+            background: rgb(47, 49, 52);
+            margin: 1.5em 0px;
+            overflow: hidden;
+            position: relative;
+            height: 300px;
+        }
+    </style>
+</body>
+</html>

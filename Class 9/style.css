@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+}
+
+.header-area {
+	background-color: #3A5795;
+	padding: 10px 0;
+	font-family: tahoma;
+}
+ 
+ .logo-area {
+	 width: 30%;
+	 float: left;
+ }
+ 
+ .login-area {
+	 overflow: hidden;
+ }
+ 
+.login-area label, 
+.login-area input {
+	display: block;
+}
+
+.username-area {
+	float: left;
+	margin-right: 15px;
+}
+.password-area {
+	float: left;
+	overflow: hidden;
+	margin-right: 15px;
+}
+.submit-area {
+	float: left;
+	overflow: hidden;
+}
+
+.username-area input[type="checkbox"] {
+	float: left;
+	margin-left: 0;
+}
+
+.login-area input {
+	margin: 3px 0;
+	border: 1px solid #1D2A5B;
+	padding: 3px;
+}
+.login-area label{
+	color: #ffffff;
+	font-size: 12px;
+}
+.password-area a {
+	text-decoration: none;
+	font-size: 12px;
+	margin: 0;
+	color: #8CACC3;
+}
+.password-area a:hover {
+	text-decoration: underline;
+}
+
+
+.username-area  label[for="rm"] {
+	display: inline-block;
+	overflow: hidden;
+	padding-left: 1px;
+	color: #8CACC3;
+	cursor: pointer;
+}
+
+.submit-area input {
+	background-color: #365899;
+	cursor: pointer;
+	color: #FFFFFF;
+	margin-top: 19px;
+	font-size: 12px;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+form{
+	float: right;
+}
+
+
+@media all and (max-width: 768px ) {
+	.logo-area {
+	float: none;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+	
+	.login-area {
+		width: 100%;
+	}
+	form {
+		float: none;
+		width: 373px;
+		margin: auto;
+	}
+}
+
+@media all and (max-width: 400px ) {
+	.login-area {
+		margin: auto;
+	}
+	.username-area {
+		float: none;
+	}
+	.password-area {
+		float: none;
+	}
+	.login-area input[type="text"],
+	.login-area input[type="password"] {
+		width: 100%;
+	}
+}

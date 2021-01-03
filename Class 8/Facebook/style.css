@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+.header-area {
+	background: #3A5795;
+	height: 100px;
+	width: 100%;
+}
+
+.logo-area {
+	height: 100px;
+	width: 30%;
+	float: left;
+	margin: 29px 0 0 100px;
+}
+.username-area {
+	height: 100px;
+	width: 11%;
+	margin: 10px 0 0 350px;
+	float: left;
+}
+
+.password-area {
+	height: 100px;
+	width: 11%;
+	margin: 10px 0 0 10px;
+	float: left;
+}
+
+.submit-area {
+	height: 100px;
+	width: 2%;
+	float: left;
+	margin: 28px 0 0 10px;
+}

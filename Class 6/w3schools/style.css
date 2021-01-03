@@ -1,0 +1,59 @@
+.body {
+	margin: 0;
+}
+.header-area{
+	
+	
+}
+.header-area b {
+	margin: 0;
+	font-family:"Font-Awesome";font-size:40px;
+	width: 49.9 %;
+	float:left;
+	overflow: hidden;
+	padding-top: 5px;
+}
+.header-area span {
+	color:#4CAF50;
+	
+}
+.header-area .dc {
+	width : 100%;
+	height:50px;
+	background-color:#4CAF50;
+	text-align: left;
+	padding-top: 3%;
+}
+
+.header-area p{
+	margin-left:70%;
+	padding-top:26px;
+	font-family: Verdana,sans-serif;
+	
+
+}
+
+.middle-area {
+	
+	
+}
+
+.left-sidebar {
+	
+	
+}
+
+.content {
+	
+	
+}
+
+.right-sidebar {
+	
+	
+}
+
+.footer-area {
+	
+	
+}

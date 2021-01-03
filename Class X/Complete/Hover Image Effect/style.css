@@ -1,0 +1,71 @@
+.box{
+	background: url('images/girl.jpeg');
+	height: 500px;
+	width: 500px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.hover {
+	color: #ffffff;
+	background:rgba(34, 139, 34, 0.37);
+	background-size: 100% auto;
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	top: 100%;
+	transition: 3s;
+}
+
+.box:hover .hover {
+	top: 80%;
+
+}
+
+.fahim {
+	background: url('images/girl2.jpeg');
+	height: 500px;
+	width: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.hoverx {
+	top: 100%;
+	position: absolute;
+	height: 220px;
+	width: 500px;
+	background:rgba(0, 191, 255, 0.43);
+	background-size: 100% auto;
+	transition-duration: 2s;
+
+}
+
+.fahim:hover .hoverx {
+	top: 80%;
+}
+
+
+.fahim2 {
+	background: url('images/girl3.jpeg');
+	position: relative;
+	overflow: hidden;
+	height: 500px;
+	width: 500px;
+}
+
+.hoverxx {
+	background: rgba(0, 191, 255, 0.32);
+	position: absolute;
+	height: 250px;
+	width: 500px;
+	top: 100%;
+	background-size: 100% auto;
+	transition-duration: 3s;
+	color: #ffffff;
+}
+
+.fahim2:hover .hoverxx {
+	top:  60%;
+}

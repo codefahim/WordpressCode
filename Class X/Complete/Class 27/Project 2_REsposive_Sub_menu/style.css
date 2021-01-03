@@ -1,0 +1,102 @@
+
+
+.menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+.menu ul li
+{
+	float: left;
+	position: relative;
+}
+.menu ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	padding: 8px 10px;
+	display: block;
+}
+
+/* sub Memu */
+.menu ul ul{
+	float: none;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+.menu ul ul li {
+	float: none;
+}
+
+
+.menu ul ul li:hover a {
+	background-color: rgba(140, 122, 230, 0.4);
+}
+.menu ul ul {
+	padding: 0;
+background-color: rgba(235, 77, 75, 0.8);
+}
+.menu:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.menu-bar a {
+	color: #353b48;
+	display: block;
+	padding: 0 7px;
+}
+
+.menu-bar i {
+	font-size: 20px;
+}
+
+.menu-bar {
+	background-color: rgba(245, 246, 250, 0.4);
+	padding: 10px 0;
+	display: none;
+}
+
+.menu ul li:hover a {
+	background-color: rgba(235, 77, 75, 0.8);
+}
+
+.menu ul ul {
+	position: inherit;
+}
+
+.box {
+	padding: 8px 10px;
+	background-color: #353b48;
+	position: fixed;
+	right: 10px;
+	bottom: 5px;
+	color: #ffffff;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+}
+
+
+@media all and (max-width: 767px) {
+	
+	.menu ul li{
+		float: none;}
+
+	.menu-bar {
+		display: block;
+	}
+
+}

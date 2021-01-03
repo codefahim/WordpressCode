@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+}
+header {
+	background: rgba(34, 139, 34, 0.67);
+	height: 600px;
+	overflow: hidden;
+}
+
+section {
+	background-color: rgba(135, 206, 250);
+	height: 300px;
+	position: relative;
+}
+
+section:before {
+	content: '';
+	clear: both;
+	display: block;
+	/* border part */
+	border-top: 50px solid transparent;
+	border-right: 1349px solid rgba(135, 206, 250);
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+}
+
+section:after {
+	content: '';
+	clear: both;
+	display: block;
+	/* border part */
+	border-bottom: 50px solid transparent;
+	border-right: 1349px solid rgba(135, 206, 250);
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.42);
+	height: 300px;
+}
+
+
+
+.img {
+	background: url('images/girl.jpeg');
+	height: 500px;
+	width: 500px;
+	position: relative;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.hover {
+	background: rgba(0, 191, 255, 0.44);
+	position: absolute;
+	height: 200px;
+	width: 500px;
+	top: 100%;
+	transition: 2s;
+	background-size: 100% auto;
+	color: #ffffff;
+}
+
+.img:hover .hover {
+	top: 70%;
+}
+

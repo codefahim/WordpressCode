@@ -1,0 +1,30 @@
+.text2,
+.text4
+{
+	height: 300px;
+	width: 300px;
+	background-color: deeppink;
+}
+.text3{
+	display: none;
+}
+
+.text5 {
+	height: 300px;
+	width: 300px;
+	background-color: lightskyblue;
+	position: absolute;
+}
+
+.text5a {
+	position: relative;
+}
+
+.text6 {
+	height: 100px;
+	width: 100px;
+	background-color: lightskyblue;
+	padding: 20px;
+	margin: 10px;
+	border: 5px solid mediumvioletred;
+}

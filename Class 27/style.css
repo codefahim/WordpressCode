@@ -1,0 +1,166 @@
+
+.box {
+	height: 30px;
+	width: 40px;
+	position: fixed;
+	top: 30px;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.51);
+	border-radius: 15%;
+	display: inline;
+}
+.box1 {
+	height: 30px;
+	width: 40px;
+	position: fixed;
+	top: 60px;
+	right: 0px;
+	background-color: rgba(255, 255, 255, 0.71);
+	border-radius: 15%;
+	display: inline;
+}
+
+
+.menu {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+.menu:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu ul li {
+	float: left;
+	position: relative;
+}
+
+.menu ul li a{
+	color:  #ffffff;
+	display: block;
+	padding: 5px 10px;
+	font-family: times new roman;
+	text-transform: capitalize;
+	font-size: 15px;
+	letter-spacing: .1em;
+}
+
+.menu ul>li:hover a {
+	text-decoration: none;
+	color:  lightskyblue;
+}
+
+
+header ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: black;
+}
+.menu ul ul li {
+	float: none!important;
+	background-color: black;
+
+}
+
+.menu ul ul li a {
+		color: #ffffff!important;
+}
+
+.menu ul ul li:hover a{
+	background-color: rgba(85, 230, 193, 0.65);
+	color: #ffffff;
+}
+
+.menu-bar {
+	background-color: black;
+	display: none;
+}
+.menu-bar a{
+	color:  #ffffff;
+	font-size: 20px;
+}
+.menu-bar i {
+	display: inline-block;
+	padding: 5px 0;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+@media all and (max-width: 768px) {
+	.menu ul ul{
+		position: inherit;
+	}
+	.menu-bar {
+		display: block;
+	}
+
+	.menu ul li {
+		float: none;
+	}
+
+	.menu ul {
+		display: none;
+	}
+
+	
+}
+
+
+
+.box3 {
+	height: 45px;
+	width: 45px;
+	position: fixed;
+	background-color: black;
+	bottom: 10px;
+	right: 10px;
+	border-radius: 15%;
+}
+
+.up {
+	color: #ffffff;
+	font-size: 25px;
+	margin: 9px 10px;
+	display: block;
+
+}
+
+#test {
+	background: #e67e22;
+	position: relative;
+	padding: 10px 10px;
+	overflow: hidden;
+}
+
+.tk {
+	background: rgba(241, 196, 15, 0.91);
+	padding: 23px 50px;
+	position: absolute;
+	background-size: 100% auto;
+	transition-duration: 3s;
+	margin: 0;
+	top: 0;
+	left: 100%;
+}
+
+#test:hover .tk {
+	left: 0;	
+}

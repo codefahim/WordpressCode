@@ -1,0 +1,39 @@
+.fahim {
+	height: 0;
+	width: 0;
+	border-right: 100px solid black;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	margin-bottom: 10px;
+
+}
+.fahim1 {
+	height: 0;
+	width: 0;
+	border-bottom: 200px solid transparent;
+	border-right: 1350px solid mediumblue;
+	margin-bottom: 10px;
+}
+
+.fahim2 {
+	height: 0;
+	width: 0;
+	border-top: 200px solid transparent;
+	border-right: 1350px solid cadetblue;
+	margin-bottom: 10px;
+}
+.fahim3 {
+	height: 0;
+	width: 0;
+	border-top: 200px solid transparent;
+	border-left: 1350px solid greenyellow;
+	margin-bottom: 10px;
+}
+
+.fahim4 {
+	height: 0;
+	width: 0;
+	border-bottom: 200px solid transparent;
+	border-left: 1350px solid skyblue;
+	margin-bottom: 10px;
+}

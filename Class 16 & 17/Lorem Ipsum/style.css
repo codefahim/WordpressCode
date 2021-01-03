@@ -1,0 +1,73 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Bootstrap Part One
+	Template URI: http://www.softtech-it.com
+	Description: Uses of Bootstrap
+	Author: Abdullah Al Fahim
+	Author URI: http://www.facebook.com/md0fahim
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+		1.1 Custom Fonts
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+		3.1 text-area
+		3.2 image-area
+	4. Design Area
+		4.1 Design-image
+		4.2 Design-text
+	5. Community Area
+		5.1 community-text
+		5.2 community-img
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+nav{
+	background:#563D7C;
+}
+ul li a {
+	color: #ffffff;
+}
+
+ul li a:hover {
+	color: #598DCA;
+	text-decoration: none;
+}
+ul {
+	padding: 20px 20px 0;
+	margin-bottom: 20px;
+}
+
+.main-manu {
+	width: 30%;
+}
+.login-page {
+	width: 100%;
+}
+
+.login-page:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.form-inline {
+	display: inline;
+	float:right;
+	padding-top: 20px;
+}
+
+
+table{
+	margin-top: 40px;
+}

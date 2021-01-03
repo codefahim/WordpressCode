@@ -1,0 +1,20 @@
+header {
+	background: #212429;
+	min-height: 40px;
+}
+
+.social-icon ul li a i:hover {
+	color: #999999 !important;
+}
+
+.welcome-area {
+	margin-bottom: 50px;
+}
+
+.contact-area {
+	background: #212429;
+}
+
+.footer-area {
+	background: #17191c;
+}
